@@ -40,6 +40,8 @@ public class MessageController {
         return ResponseEntity.ok(message);
     }
 
+    //Test
+
 
     @PostMapping("/add")
     public ResponseEntity<Message> addMessage(@RequestBody Message message) {
