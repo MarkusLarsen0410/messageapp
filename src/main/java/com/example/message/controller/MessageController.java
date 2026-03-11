@@ -41,7 +41,7 @@ public class MessageController {
     }
 
     //Test
-
+//test2
 
     @PostMapping("/add")
     public ResponseEntity<Message> addMessage(@RequestBody Message message) {
